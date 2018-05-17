@@ -30,6 +30,6 @@ class IDBSpider(scrapy.Spider):
                     'Author':div.css('p strong::text').extract(),
                     'Publisher':div.css('div p#publisher.small span::text').extract(),
                     'ISBN 10':div.css('div p.isbn.small span a::text').extract()[0],
-                    'ISBN 11':div.css('div p.isbn.small span a::text').extract()[1]
+                    'ISBN 13':div.css('div p.isbn.small span a::text').extract()[1]
                 }
                 i += 1

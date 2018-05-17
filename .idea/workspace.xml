@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83a7f6df-0f3a-4c65-9a08-f6d4a1f80b79" name="Default" comment="" />
+    <list default="true" id="83a7f6df-0f3a-4c65-9a08-f6d4a1f80b79" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webrank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webrank.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/abebooksdata.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/abebooksdata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/bookfinder.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/bookfinder.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrank/spiders/AbebooksSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/webrank/spiders/AbebooksSpider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webrank/spiders/IDBSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/webrank/spiders/IDBSpider.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,21 +20,86 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/webrank$main.coverage" NAME="main Coverage Results" MODIFIED="1522290268220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/webrank$getISBN.coverage" NAME="getISBN Coverage Results" MODIFIED="1522289717597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webrank$main.coverage" NAME="main Coverage Results" MODIFIED="1522290268220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webrank_dm$main.coverage" NAME="main Coverage Results" MODIFIED="1526522257264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/webrank_dm$preprocessing.coverage" NAME="preprocessing Coverage Results" MODIFIED="1526582779306" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.py">
+      <file leaf-file-name="isbndb.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/isbndb.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+            <state relative-caret-position="1395">
+              <caret line="93" column="41" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preprocessing.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/preprocessing.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="137" column="29" lean-forward="true" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Finalgoodreads.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/Finalgoodreads.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="IDBSpider.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webrank/spiders/IDBSpider.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="217">
+              <caret line="18" column="33" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="18" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goodreads.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/goodreads.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="12" lean-forward="true" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>/</find>
+      <find>9780452284241</find>
+      <find>id</find>
+      <find>0452284244</find>
+      <find>1594480001</find>
+      <find>0525478817</find>
+      <find>Book Name</find>
+      <find>0142437247</find>
+      <find>9780553296983</find>
+      <find>Full Title</find>
+      <find>Doubleday</find>
+      <find>0143058142</find>
+      <find>0142437263</find>
+      <find>&quot;Cover&quot;</find>
+      <find>&quot;Binding&quot;</find>
+      <find>\u</find>
+      <find>0439554934</find>
+      <find>ISBN:</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&quot;Binding&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -33,9 +108,25 @@
         <option value="$PROJECT_DIR$/getISBN.py" />
         <option value="$PROJECT_DIR$/webrank/data/isbns.txt" />
         <option value="$PROJECT_DIR$/webrank/spiders/bookfinder.py" />
+        <option value="$PROJECT_DIR$/isbns.txt" />
+        <option value="$PROJECT_DIR$/data/powellsdata.json" />
+        <option value="$PROJECT_DIR$/data/powells.json" />
+        <option value="$PROJECT_DIR$/ISBN13s.txt" />
+        <option value="$PROJECT_DIR$/webrank/spiders/powells.py" />
+        <option value="$PROJECT_DIR$/data/Final.txt" />
+        <option value="$PROJECT_DIR$/data/test.txt" />
+        <option value="$PROJECT_DIR$/data/abebooksdata.json" />
+        <option value="$PROJECT_DIR$/data/Final1.txt" />
+        <option value="$PROJECT_DIR$/data/Final2.txt" />
+        <option value="$PROJECT_DIR$/data/Final3.txt" />
+        <option value="$PROJECT_DIR$/data/bookfinder.json" />
+        <option value="$PROJECT_DIR$/data/isbndb.json" />
+        <option value="$PROJECT_DIR$/data/Final2book.txt" />
         <option value="$PROJECT_DIR$/webrank/spiders/AbebooksSpider.py" />
+        <option value="$PROJECT_DIR$/data/isbndb4.json" />
         <option value="$PROJECT_DIR$/webrank/spiders/IDBSpider.py" />
         <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/preprocessing.py" />
       </list>
     </option>
   </component>
@@ -45,37 +136,38 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="240" />
-    <option name="y" value="135" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="x" value="20" />
+    <option name="y" value="43" />
+    <option name="width" value="1400" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="webrank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webrank" type="462c0819:PsiDirectoryNode" />
+              <item name="webrank_dm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webrank_dm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="webrank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webrank" type="462c0819:PsiDirectoryNode" />
+              <item name="webrank_dm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webrank_dm" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="webrank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webrank" type="462c0819:PsiDirectoryNode" />
+              <item name="webrank_dm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webrank_dm" type="462c0819:PsiDirectoryNode" />
               <item name="webrank" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="webrank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="webrank" type="462c0819:PsiDirectoryNode" />
+              <item name="webrank_dm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="webrank_dm" type="462c0819:PsiDirectoryNode" />
               <item name="webrank" type="462c0819:PsiDirectoryNode" />
               <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -83,23 +175,23 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\jayes\Pycharm Workspace\webrank\data" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="C:\Users\jayes\Pycharm Workspace\webrank" />
       <recent name="C:\Users\jayes\Pycharm Workspace\webrank\webrank\spiders" />
       <recent name="C:\Users\jayes\Pycharm Workspace\webrank\webrank\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jayes\Pycharm Workspace\webrank\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -114,7 +206,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python.preprocessing">
     <configuration name="getISBN" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="webrank" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -153,12 +245,33 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="webrank" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/preprocessing.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list>
       <item itemvalue="Python.main" />
       <item itemvalue="Python.getISBN" />
+      <item itemvalue="Python.preprocessing" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.preprocessing" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.getISBN" />
       </list>
@@ -178,27 +291,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32984293" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2759434" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32900944" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16111112" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
       <window_info anchor="right" id="SciView" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3987879" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32984293" />
     </layout>
@@ -209,7 +323,140 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/preprocessing.py</url>
+          <line>21</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/Final3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2655">
+          <caret line="177" column="172" selection-start-line="177" selection-start-column="172" selection-end-line="177" selection-end-column="172" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/bookfinder.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="175" lean-forward="true" selection-start-line="15" selection-start-column="175" selection-end-line="15" selection-end-column="175" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="43" lean-forward="true" selection-start-line="76" selection-start-column="43" selection-end-line="76" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="60" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webrank/spiders/powells.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="23" column="30" lean-forward="true" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/abebooksdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="56" lean-forward="true" selection-end-line="178" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Final.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5325">
+          <caret line="355" column="178" selection-start-line="355" selection-start-column="178" selection-end-line="355" selection-end-column="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isbndb.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" lean-forward="true" selection-end-line="1471" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/bookfinder.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="165" lean-forward="true" selection-end-line="179" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="55" selection-start-line="4" selection-start-column="55" selection-end-line="4" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webrank/spiders/IDBSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webrank/spiders/AbebooksSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="7" column="20" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webrank/spiders/powells.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="28" column="13" lean-forward="true" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -224,58 +471,212 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/isbns.txt">
+    <entry file="file://$PROJECT_DIR$/data/powellsdata1.json" />
+    <entry file="file://$PROJECT_DIR$/data/powellsdata.json" />
+    <entry file="file://$PROJECT_DIR$/webrank/spiders/bookfinder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="177" column="10" selection-start-line="177" selection-start-column="10" selection-end-line="177" selection-end-column="10" />
+        <state relative-caret-position="120">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/getISBN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/bookfinder.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/isbns.txt">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="10" selection-start-line="11" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/bookfinder2.json" />
-    <entry file="file://$PROJECT_DIR$/data/bookfinder.json">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/data/powellsdata3.json" />
+    <entry file="file://$PROJECT_DIR$/ISBN13s.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="177" column="13" selection-start-line="177" selection-start-column="13" selection-end-line="177" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/abebooks2.json" />
+    <entry file="file://$PROJECT_DIR$/webrank/spiders/powells.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="23" column="30" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/encoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="183" selection-start-line="183" selection-end-line="183" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2783">
+          <caret line="285" selection-start-line="285" selection-end-line="285" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/decoder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="365" selection-start-line="365" selection-end-line="365" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="4" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isbns.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="177" column="10" selection-start-line="177" selection-start-column="10" selection-end-line="177" selection-end-column="10" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/abebooksdata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2370">
+          <caret line="158" column="60" selection-start-line="158" selection-start-column="50" selection-end-line="158" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/ast.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/bookfinder.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="177" column="177" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Final4.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/webrank/spiders/AbebooksSpider.py">
+    <entry file="file://$PROJECT_DIR$/data/Final.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        <state relative-caret-position="297">
+          <caret line="355" column="178" selection-start-line="355" selection-start-column="178" selection-end-line="355" selection-end-column="178" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webrank/spiders/bookfinder.py">
+    <entry file="file://$PROJECT_DIR$/data/Final1.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        <state relative-caret-position="665">
+          <caret line="175" column="77" selection-start-line="175" selection-start-column="77" selection-end-line="175" selection-end-column="77" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webrank/spiders/IDBSpider.py">
+    <entry file="file://$PROJECT_DIR$/data/Final2.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        <state relative-caret-position="346">
+          <caret line="167" column="48" lean-forward="true" selection-start-line="167" selection-start-column="48" selection-end-line="167" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Final3.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="168" column="112" selection-start-line="168" selection-start-column="112" selection-end-line="168" selection-end-column="127" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
+        <state relative-caret-position="60">
+          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isbndb.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1395">
+          <caret line="93" column="41" selection-start-line="93" selection-start-column="12" selection-end-line="93" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isbndb4.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="104" selection-start-line="13" selection-start-column="94" selection-end-line="13" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/powells.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webrank/spiders/IDBSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="18" column="33" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webrank/spiders/AbebooksSpider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isbndb2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/isbndb3.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="234" selection-start-line="1" selection-start-column="224" selection-end-line="1" selection-end-column="234" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Final2book.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="102" selection-start-column="92" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/goodreads.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/Finalgoodreads.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="137" column="29" lean-forward="true" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

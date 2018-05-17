@@ -1,11 +1,11 @@
-{"Publisher": ["Arthur A. Levine Books", "(2003)"], "Author": ["Rowling, J. K."], "ISBN 10": "0439554934", "ISBN 13": "9780439554930", "Book Name": ["Harry Potter and the Sorcerer's Stone - Library Edition"]},
+[{"Publisher": ["Arthur A. Levine Books", "(2003)"], "Author": ["Rowling, J. K."], "ISBN 10": "0439554934", "ISBN 13": "9780439554930", "Book Name": ["Harry Potter and the Sorcerer's Stone - Library Edition"]},
 {"Publisher": ["Doubleday", "(2013)"], "Author": ["Brown, Dan"], "ISBN 10": "0385537859", "ISBN 13": "9780385537858", "Book Name": ["Inferno"]},
 {"Publisher": ["Harper Perennial Modern Classics", "(2006)"], "Author": ["Harper Lee", "Used"], "ISBN 10": "0061120081", "ISBN 13": "9780061120084", "Book Name": ["To Kill a Mockingbird (Harper Pernnial Moderns Classics)"]},
 {"Publisher": ["Houghton Mifflin", "(2001)"], "Author": ["J.R.R. Tolkien"], "ISBN 10": "0618260307", "ISBN 13": "9780618260300", "Book Name": ["The Hobbit"]},
-{"Publisher": ["Scribner", "(1925)"], "Author": ["F. Scott Fitzgerald", "Used"], "ISBN 10": "0743273567", "ISBN 13": "9780743273565", "Book Name": ["The Great Gatsby"]},
 {"Publisher": ["Dutton Books"], "Author": ["Green, John"], "ISBN 10": "0525478817", "ISBN 13": "9780525478812", "Book Name": ["The Fault in Our Stars"]},
 {"Publisher": ["Pocket Books"], "Author": ["Brown, Dan", "Used", "MASS MARKET PAPERBACK"], "ISBN 10": "1416524797", "ISBN 13": "9781416524793", "Book Name": ["Angels & Demons (Robert Langdon)"]},
 {"Publisher": ["Signet Classic"], "Author": ["George Orwell"], "ISBN 10": "0451524934", "ISBN 13": "9780451524935", "Book Name": ["1984 (Signet Classics)"]},
+{"Publisher": ["Scribner", "(1925)"], "Author": ["F. Scott Fitzgerald", "Used"], "ISBN 10": "0743273567", "ISBN 13": "9780743273565", "Book Name": ["The Great Gatsby"]},
 {"Publisher": [], "Author": ["Used"], "ISBN 10": "0452284244", "ISBN 13": "9780452284241", "Book Name": ["Animal Farm: Centennial Edition"]},
 {"Publisher": ["Scholastic Press"], "Author": ["Collins, Suzanne"], "ISBN 10": "0439023483", "ISBN 13": "9780439023481", "Book Name": ["The Hunger Games (The Hunger Games, Book 1)"]},
 {"Publisher": ["Bantam"], "Author": ["Frank, Anne", "Used", "MASS MARKET PAPERBACK"], "ISBN 10": "0553296981", "ISBN 13": "9780553296983", "Book Name": ["Anne Frank: The Diary of a Young Girl"]},
@@ -175,4 +175,4 @@
 {"Publisher": ["William Morrow", "(2005)"], "Author": ["John Grogan", "Used", "First Edition"], "ISBN 10": "0739461192", "ISBN 13": "9780739461198", "Book Name": ["Marley & Me: Life and Love with the World's Worst Dog"]},
 {"Publisher": ["W. W. Norton"], "Author": ["Palahniuk, Chuck", "Used", "Paperback"], "ISBN 10": "0393327345", "ISBN 13": "9780393327342", "Book Name": ["Fight Club: A Novel"]},
 {"Publisher": ["St. Martin's Griffin"], "Author": ["Christie, Agatha", "Used", "PAPERBACK"], "ISBN 10": "0312330871", "ISBN 13": "9780312330873", "Book Name": ["And Then There Were None"]},
-{"Publisher": ["Doubleday Books"], "Author": ["Brown, Dan", "Used", "Hardcover"], "ISBN 10": "0385504225", "ISBN 13": "9780385504225", "Book Name": ["The Lost Symbol"]}
+{"Publisher": ["Doubleday Books"], "Author": ["Brown, Dan", "Used", "Hardcover"], "ISBN 10": "0385504225", "ISBN 13": "9780385504225", "Book Name": ["The Lost Symbol"]}]
